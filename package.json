@@ -1,0 +1,25 @@
+{
+  "name": "Pardis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdi-jalili/Pardis-shopify-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehdi-jalili/Pardis-shopify-theme/issues"
+  },
+  "homepage": "https://github.com/mehdi-jalili/Pardis-shopify-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
+  }
+}
