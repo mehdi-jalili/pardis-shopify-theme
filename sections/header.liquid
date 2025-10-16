@@ -29,7 +29,7 @@
                             <a href="{{ link.url }}" 
                             @mouseenter="{{ link_handle }} = true" 
                             @mouseleave="{{ link_handle }} = false"
-                            class="inline-flex items-center cursor-pointer {% if link.active %} text-gray-900 {% else %} text-gray-500 hover:text-gray-900 {% endif %}">
+                            class="inline-flex items-center cursor-pointer {% if link.active == true %} text-gray-900 {% else %} text-gray-500 hover:text-gray-900 {% endif %}">
                                 {{ link.title }}
                                 {% render 'icon-dropdown' %}
                             </a>
